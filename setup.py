@@ -106,6 +106,7 @@ iri12 = Extension(
 # IRI16:
 iri16 = Extension(
     name='iri16py',
+    zip_safe=False,
     sources=[os.path.join(DL_MODELS, 'iri16', fname) for fname in [
         'cira.for',
         'igrf.for',
